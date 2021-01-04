@@ -13,6 +13,7 @@
 		0F73647D25A35A9D0082F32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F73647B25A35A9D0082F32A /* Main.storyboard */; };
 		0F73647F25A35A9F0082F32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F73647E25A35A9F0082F32A /* Assets.xcassets */; };
 		0F73648225A35A9F0082F32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F73648025A35A9F0082F32A /* LaunchScreen.storyboard */; };
+		0F73648C25A3677C0082F32A /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F73648B25A3677C0082F32A /* airplane.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0F73647E25A35A9F0082F32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F73648125A35A9F0082F32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F73648325A35A9F0082F32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F73648B25A3677C0082F32A /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0F73647425A35A9D0082F32A /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				0F73648A25A367480082F32A /* Image */,
 				0F73647525A35A9D0082F32A /* AppDelegate.swift */,
 				0F73647725A35A9D0082F32A /* SceneDelegate.swift */,
 				0F73647925A35A9D0082F32A /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				0F73648325A35A9F0082F32A /* Info.plist */,
 			);
 			path = BucketList;
+			sourceTree = "<group>";
+		};
+		0F73648A25A367480082F32A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0F73648B25A3677C0082F32A /* airplane.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 				0F73648225A35A9F0082F32A /* LaunchScreen.storyboard in Resources */,
 				0F73647F25A35A9F0082F32A /* Assets.xcassets in Resources */,
 				0F73647D25A35A9D0082F32A /* Main.storyboard in Resources */,
+				0F73648C25A3677C0082F32A /* airplane.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
