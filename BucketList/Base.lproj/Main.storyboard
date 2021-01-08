@@ -110,6 +110,9 @@
                                                         <real key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="LoginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dn0-9O-0Jv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </view>
@@ -126,6 +129,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </scene>
+        <!--Regist Bucket List-->
+        <scene sceneID="qCA-Gm-cii">
+            <objects>
+                <viewController storyboardIdentifier="vc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MeL-q9-NmH" customClass="RegistBucketList" customModule="BucketList" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uey-se-Ubi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="482"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tuF-Xe-n2Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="482"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KmD-qJ-fJS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703" y="96"/>
         </scene>
     </scenes>
     <designables>

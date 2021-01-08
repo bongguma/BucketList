@@ -17,6 +17,7 @@
 		0F73649025A49A7E0082F32A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73648F25A49A7E0082F32A /* UIButton.swift */; };
 		0F73649825A49D7C0082F32A /* kakaoTalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F73649725A49D7C0082F32A /* kakaoTalk.png */; };
 		0F7364A025A49F6F0082F32A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73649F25A49F6F0082F32A /* UIView.swift */; };
+		0FC11A2225A897D80004551A /* RegistBucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC11A2125A897D80004551A /* RegistBucketList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0F73648F25A49A7E0082F32A /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		0F73649725A49D7C0082F32A /* kakaoTalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakaoTalk.png; sourceTree = "<group>"; };
 		0F73649F25A49F6F0082F32A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		0FC11A2125A897D80004551A /* RegistBucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistBucketList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				0F73647E25A35A9F0082F32A /* Assets.xcassets */,
 				0F73648025A35A9F0082F32A /* LaunchScreen.storyboard */,
 				0F73648325A35A9F0082F32A /* Info.plist */,
+				0FC11A2125A897D80004551A /* RegistBucketList.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7364A025A49F6F0082F32A /* UIView.swift in Sources */,
+				0FC11A2225A897D80004551A /* RegistBucketList.swift in Sources */,
 				0F73647A25A35A9D0082F32A /* ViewController.swift in Sources */,
 				0F73647625A35A9D0082F32A /* AppDelegate.swift in Sources */,
 				0F73647825A35A9D0082F32A /* SceneDelegate.swift in Sources */,
