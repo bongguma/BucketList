@@ -17,10 +17,22 @@ class ViewController: UIViewController {
     }
 
     @IBAction func LoginAction(_ sender: Any) {
-        let registBuketList = self.storyboard?.instantiateViewController(withIdentifier: "RegistBucketList") as? RegistBucketList
+        // alert 몸통 만들기
+        let alert = UIAlertController(title: "알림", message:"앱 로그인을 시도 할까요?", preferredStyle: .alert)
         
-        self.present(registBuketList!, animated: true)
+        let isDoneAlert = UIAlertAction(title: "확인", style:. default) {
+            (isDone) in
+                print("alert isDone!!!!!!!!!")
+                let registBuketList = self.storyboard?.instantiateViewController(withIdentifier: "RegistBucketList") as? RegistBucketList
+
+                self.present(registBuketList!, animated: true)
+        }
+        
+        // 하단 action 버튼을 따로 붙여야함.
+        alert.addAction(isDoneAlert)
+        
+        // alert 띄우기
+        present(alert, animated: true, completion: nil)
     }
-    
 }
 
