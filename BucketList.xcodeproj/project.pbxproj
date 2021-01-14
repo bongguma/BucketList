@@ -70,12 +70,12 @@
 				0F73648A25A367480082F32A /* Image */,
 				0F73647525A35A9D0082F32A /* AppDelegate.swift */,
 				0F73647725A35A9D0082F32A /* SceneDelegate.swift */,
+				0FC11A2125A897D80004551A /* RegistBucketList.swift */,
 				0F73647925A35A9D0082F32A /* ViewController.swift */,
 				0F73647B25A35A9D0082F32A /* Main.storyboard */,
 				0F73647E25A35A9F0082F32A /* Assets.xcassets */,
 				0F73648025A35A9F0082F32A /* LaunchScreen.storyboard */,
 				0F73648325A35A9F0082F32A /* Info.plist */,
-				0FC11A2125A897D80004551A /* RegistBucketList.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
