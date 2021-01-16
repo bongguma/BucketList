@@ -25,8 +25,15 @@ class ViewController: UIViewController {
         // handler - '확인' 버튼을 눌렀을 때 보여주는 액션
         let isDoneAlert = UIAlertAction(title: "확인", style:. default) {
             (isDone) in
-            let registBuketListNavigation = self.storyboard?.instantiateViewController(withIdentifier: "RegistBucketListNavigationCont")
-            self.navigationController?.pushViewController(registBuketListNavigation!, animated: true)
+            print("isDone :: \(isDone)")
+            if ((isDone.title?.elementsEqual("확인")) != nil) {
+                let registBuketListNavigation = self.storyboard?.instantiateViewController(withIdentifier: "RegistBucketListNavigationCont")
+                // navigationController.pushViewController - 네비게이션으로 스택처럼 화면이 쌓이는 형식
+                // present - 화면 위에 그냥 바로 띄우는 형식
+                // 현재는 그냥 네비게이션 뷰 컨트롤러가 아닌 뷰 컨트롤러를 띄우는 것으로 present 이용
+//                self.navigationController?.pushViewController(registBuketListNavigation!, animated: true)
+                self.present(registBuketListNavigation!, animated: true, completion: nil)
+            }
                 
         }
         
