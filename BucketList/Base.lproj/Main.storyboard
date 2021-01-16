@@ -133,7 +133,6 @@
         <!--Regist Bucket List-->
         <scene sceneID="Vvp-0p-tBj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d00-Du-SaA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="RegistBucketList" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qV6-MX-gdv" customClass="RegistBucketList" customModule="BucketList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LbC-Ui-7Pm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="482"/>
@@ -190,13 +189,13 @@
                         <outlet property="nowBucketLabel" destination="RyV-OM-Tem" id="d6b-W1-AfY"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d00-Du-SaA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1487" y="84"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wyu-sD-iBY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0VE-lD-FxS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="RegistBucketListNavigationCont" modalPresentationStyle="fullScreen" id="gyR-Pl-pac" sceneMemberID="viewController">
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="482"/>
@@ -208,6 +207,7 @@
                         <segue destination="qV6-MX-gdv" kind="relationship" relationship="rootViewController" id="xJ9-ho-HsD"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0VE-lD-FxS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="787" y="84"/>
         </scene>

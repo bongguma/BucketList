@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5DA07E25B3377B00024E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DA07D25B3377B00024E7B /* Assets.xcassets */; };
 		0F73647625A35A9D0082F32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73647525A35A9D0082F32A /* AppDelegate.swift */; };
 		0F73647825A35A9D0082F32A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73647725A35A9D0082F32A /* SceneDelegate.swift */; };
 		0F73647A25A35A9D0082F32A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73647925A35A9D0082F32A /* ViewController.swift */; };
 		0F73647D25A35A9D0082F32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F73647B25A35A9D0082F32A /* Main.storyboard */; };
-		0F73647F25A35A9F0082F32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F73647E25A35A9F0082F32A /* Assets.xcassets */; };
 		0F73648225A35A9F0082F32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F73648025A35A9F0082F32A /* LaunchScreen.storyboard */; };
 		0F73648C25A3677C0082F32A /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F73648B25A3677C0082F32A /* airplane.png */; };
 		0F73649025A49A7E0082F32A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73648F25A49A7E0082F32A /* UIButton.swift */; };
@@ -22,12 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F5DA07D25B3377B00024E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F73647225A35A9D0082F32A /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F73647525A35A9D0082F32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F73647725A35A9D0082F32A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0F73647925A35A9D0082F32A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F73647C25A35A9D0082F32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0F73647E25A35A9F0082F32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F73648125A35A9F0082F32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F73648325A35A9F0082F32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F73648B25A3677C0082F32A /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane.png; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 				0FC11A2125A897D80004551A /* RegistBucketList.swift */,
 				0F73647925A35A9D0082F32A /* ViewController.swift */,
 				0F73647B25A35A9D0082F32A /* Main.storyboard */,
-				0F73647E25A35A9F0082F32A /* Assets.xcassets */,
 				0F73648025A35A9F0082F32A /* LaunchScreen.storyboard */,
+				0F5DA07D25B3377B00024E7B /* Assets.xcassets */,
 				0F73648325A35A9F0082F32A /* Info.plist */,
 			);
 			path = BucketList;
@@ -159,10 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F73648225A35A9F0082F32A /* LaunchScreen.storyboard in Resources */,
-				0F73647F25A35A9F0082F32A /* Assets.xcassets in Resources */,
 				0FDE951B25B31F7B00BB98C5 /* app_splash.jpg in Resources */,
 				0F73649825A49D7C0082F32A /* kakaoTalk.png in Resources */,
 				0F73647D25A35A9D0082F32A /* Main.storyboard in Resources */,
+				0F5DA07E25B3377B00024E7B /* Assets.xcassets in Resources */,
 				0F73648C25A3677C0082F32A /* airplane.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
