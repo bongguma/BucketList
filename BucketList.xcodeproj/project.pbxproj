@@ -18,6 +18,7 @@
 		0F73649825A49D7C0082F32A /* kakaoTalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F73649725A49D7C0082F32A /* kakaoTalk.png */; };
 		0F7364A025A49F6F0082F32A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73649F25A49F6F0082F32A /* UIView.swift */; };
 		0FC11A2225A897D80004551A /* RegistBucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC11A2125A897D80004551A /* RegistBucketList.swift */; };
+		0FDE951B25B31F7B00BB98C5 /* app_splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FDE951A25B31F7B00BB98C5 /* app_splash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0F73649725A49D7C0082F32A /* kakaoTalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakaoTalk.png; sourceTree = "<group>"; };
 		0F73649F25A49F6F0082F32A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0FC11A2125A897D80004551A /* RegistBucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistBucketList.swift; sourceTree = "<group>"; };
+		0FDE951A25B31F7B00BB98C5 /* app_splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app_splash.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		0F73648A25A367480082F32A /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				0FDE951A25B31F7B00BB98C5 /* app_splash.jpg */,
 				0F73648B25A3677C0082F32A /* airplane.png */,
 				0F73649725A49D7C0082F32A /* kakaoTalk.png */,
 			);
@@ -157,6 +160,7 @@
 			files = (
 				0F73648225A35A9F0082F32A /* LaunchScreen.storyboard in Resources */,
 				0F73647F25A35A9F0082F32A /* Assets.xcassets in Resources */,
+				0FDE951B25B31F7B00BB98C5 /* app_splash.jpg in Resources */,
 				0F73649825A49D7C0082F32A /* kakaoTalk.png in Resources */,
 				0F73647D25A35A9D0082F32A /* Main.storyboard in Resources */,
 				0F73648C25A3677C0082F32A /* airplane.png in Resources */,
