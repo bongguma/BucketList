@@ -25,13 +25,9 @@ class ViewController: UIViewController {
         // handler - '확인' 버튼을 눌렀을 때 보여주는 액션
         let isDoneAlert = UIAlertAction(title: "확인", style:. default) {
             (isDone) in
-                print("alert isDone!!!!!!!!!")
             let registBuketListNavigation = self.storyboard?.instantiateViewController(withIdentifier: "RegistBucketListNavigationCont")
             self.navigationController?.pushViewController(registBuketListNavigation!, animated: true)
                 
-//                let registBuketList = self.storyboard?.instantiateViewController(withIdentifier: "RegistBucketList") as? RegistBucketList
-//
-//                self.present(registBuketList!, animated: true)
         }
         
         // 하단 action 버튼을 따로 붙여야함.
